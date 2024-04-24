@@ -37,6 +37,7 @@ public class OrangeHrm {
 	  JavascriptExecutor js =(JavascriptExecutor) Driver;
 	  js.executeScript("window.scrollBy(0,500)");
       Driver.findElement(By.xpath("//i[@class='oxd-icon bi-check oxd-checkbox-input-icon']")).click();
+      System.out.println("this code is completed");
 	
 	}
 
